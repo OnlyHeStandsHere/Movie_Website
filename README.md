@@ -1,5 +1,11 @@
-# Project 1 Movie Website
+# Project 1 - Movie Website
 ## Udacity Full Stack Developer Nanodegree
 
-This is some text here in a paragraph
+
+### ** To Run This Project **
+
+1. Install Python(if you haven't already)
+2. Open a terminal in the /Move_Website directory
+3. Type python main.py
+4. The website should open up automatically. Enjoy!
 
