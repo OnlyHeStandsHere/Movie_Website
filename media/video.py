@@ -1,5 +1,6 @@
 class Video():
-    """Video Class used to group common elements of a tv-show, movie, or other video together."""
+    """Video Class used to group common elements of a tv-show, movie, or other video together.
+       Acts as a simple data class"""
 
     def __init__(self, title, length, storyline, category):
         """Constructor Creates a new Video Object"""
