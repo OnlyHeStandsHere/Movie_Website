@@ -9,4 +9,3 @@
 3. Type python main.py
 4. The website should open up automatically. Enjoy!
 
-This project made with PyCharm community edition version 2016.2.3

@@ -11,7 +11,7 @@
 ###########################################################
 
 import fresh_tomatoes   #from Udacity, used to create and display webpage
-from media import movie #movie class used to populate fresh tomatoes
+import movie
 
 #Make some movies
 ghost_in_the_shell = movie.Movie('Ghost in the Shell',

@@ -1,5 +1,5 @@
 import webbrowser
-from media import video
+import video
 
 
 class Movie(video.Video):
