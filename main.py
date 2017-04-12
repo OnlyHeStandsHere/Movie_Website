@@ -10,10 +10,10 @@
 #   4. Enjoy some movie trailers!
 ###########################################################
 
-import fresh_tomatoes   #from Udacity, used to create and display webpage
+import fresh_tomatoes   # from Udacity, used to create and display webpage
 import movie
 
-#Make some movies
+# Make some movies
 ghost_in_the_shell = movie.Movie('Ghost in the Shell',
                                  '1h 47min',
                                  'In the near future, Major is the first of her kind: '
@@ -65,15 +65,22 @@ wonder_woman = movie.Movie('Wonder Woman',
 
 the_circle = movie.Movie('The Circle',
                          '1h 50min',
-                         'A woman lands a dream job at a powerful tech company called the Circle, only to uncover a nefarious agenda that will affect the lives of her friends, family and that of humanity. ',
+                         'A woman lands a dream job at a powerful tech company called '
+                         'the Circle, only to uncover a nefarious agenda that '
+                         'will affect the lives of her friends, family and that of humanity. ',
                          'Drama, Sci-Fi',
                          'https://images-na.ssl-images-amazon.com/images/M/MV5BMjY2OTM2Njc3Ml5BMl5BanBnXkFtZTgwNDgzODU3MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg',
                          'https://www.youtube.com/watch?v=GxEzUgoCF3w',
                          'PG-13')
 
-#Add movies to a list
-movies = [ghost_in_the_shell, alien_covenant, blade_runner, guardians_of_the_galaxy2, wonder_woman, the_circle]
+# Add movies to a list
+movies = [ghost_in_the_shell,
+          alien_covenant,
+          blade_runner,
+          guardians_of_the_galaxy2,
+          wonder_woman,
+          the_circle]
 
-#render movies website
+# Render movies website
 fresh_tomatoes.open_movies_page(movies)
 
