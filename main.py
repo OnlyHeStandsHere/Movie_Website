@@ -84,3 +84,4 @@ movies = [ghost_in_the_shell,
 # Render movies website
 fresh_tomatoes.open_movies_page(movies)
 
+
